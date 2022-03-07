@@ -27,8 +27,16 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxtjs/composition-api/module', ['@storyblok/nuxt/module']],
-
+  buildModules: [
+    '@nuxtjs/composition-api/module', ['@storyblok/nuxt/module',
+    {
+    accessToken:process.env.STORYBLOK_API_KEY,
+    bridge: true,
+    apiOptions: {}, // storyblok-js-client options
+    useApiClient: true
+    }]
+],
+  
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
