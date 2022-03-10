@@ -1,6 +1,8 @@
 <template>
-  <header class="flex justify-between font-extrabold bg-red-400 mx-auto px-4 py-8">
-    <h1>Animations</h1>
+  <header class="flex justify-between  bg-red-400 mx-auto px-4">
+    <div>
+      <TheLogo />
+      </div>
     <div>
       <TheNavBar />
     </div>

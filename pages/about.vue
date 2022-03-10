@@ -2,7 +2,7 @@
   <main class="flex flex-col">
    <h2 class="text-lg font-bold text-center my-8 font-serif">About Animations</h2>
     <section class="mb-8">
-      <p class="text-xl mx-auto md:max-w-2xl selection:text-red-900 selection:bg-red-300">
+      <p class="text-lg mx-auto md:max-w-2xl selection:text-red-900 selection:bg-red-300">
         Animation is a method in which figures are manipulated to appear as
         moving images. In traditional animation, images are drawn or painted by
         hand on transparent celluloid sheets to be photographed and exhibited on

@@ -1,0 +1,64 @@
+{
+    "story": {
+        "name": "home-page",
+        "created_at": "2022-03-10T22:20:51.406Z",
+        "published_at": null,
+        "alternates": [],
+        "id": 114768562,
+        "uuid": "e2dac14b-6d3c-4ed2-a151-6ea0a90cc015",
+        "content": {
+            "_uid": "31d22480-a601-4dee-9acf-f48071658251",
+            "post": [],
+            "title": "",
+            "nav_list": [
+                {
+                    "_uid": "4b114748-c5fa-4976-90a6-7c1adf7fd5cc",
+                    "component": "nav_item",
+                    "nav_item1": "",
+                    "nav_item2": "",
+                    "nav_item3": "",
+                    "_editable": "\u003c!--#storyblok#{\"name\": \"nav_item\", \"space\": \"149735\", \"uid\": \"4b114748-c5fa-4976-90a6-7c1adf7fd5cc\", \"id\": \"114768562\"}--\u003e"
+                },
+                {
+                    "cta": "",
+                    "_uid": "a2156242-8838-4037-95f9-1f16dada7550",
+                    "image": "",
+                    "title": "",
+                    "content": "",
+                    "component": "post",
+                    "_editable": "\u003c!--#storyblok#{\"name\": \"post\", \"space\": \"149735\", \"uid\": \"a2156242-8838-4037-95f9-1f16dada7550\", \"id\": \"114768562\"}--\u003e"
+                },
+                {
+                    "_uid": "b8ac079c-8dfd-4e53-9e1a-e450b8d90bc0",
+                    "component": "footer",
+                    "copy_right": "",
+                    "_editable": "\u003c!--#storyblok#{\"name\": \"footer\", \"space\": \"149735\", \"uid\": \"b8ac079c-8dfd-4e53-9e1a-e450b8d90bc0\", \"id\": \"114768562\"}--\u003e"
+                }
+            ],
+            "component": "navigation",
+            "logo_link": {
+                "id": "",
+                "url": "",
+                "linktype": "story",
+                "fieldtype": "multilink",
+                "cached_url": ""
+            },
+            "_editable": "\u003c!--#storyblok#{\"name\": \"navigation\", \"space\": \"149735\", \"uid\": \"31d22480-a601-4dee-9acf-f48071658251\", \"id\": \"114768562\"}--\u003e"
+        },
+        "slug": "home-page",
+        "full_slug": "blog/home-page",
+        "default_full_slug": null,
+        "sort_by_date": null,
+        "position": 0,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 114768489,
+        "meta_data": null,
+        "group_id": "fb417794-f6a0-4c1a-8a39-7a9094e0db68",
+        "first_published_at": null,
+        "release_id": null,
+        "lang": "default",
+        "path": "/",
+        "translated_slugs": []
+    }
+}
