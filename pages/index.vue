@@ -1,12 +1,8 @@
 <template>
   <div>
-    <AppHeader />
-    <section>
-      <h2>Page Content</h2>
-      <p>This section is directly on the index.vue file</p>
-      <p>hello world</p>
-      <p>maryam khan</p>
-    </section>
+    <TheHeader />
+    <PostContent />
+    <TheFooter />
   </div>
 </template>
 

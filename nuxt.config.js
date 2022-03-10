@@ -24,10 +24,14 @@ export default {
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components:[ true, '~/components' ],
+
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxt/image',
+    'nuxt-webpack-optimisations',
     '@nuxtjs/composition-api/module', ['@storyblok/nuxt/module',
     {
     accessToken:process.env.STORYBLOK_API_KEY,
