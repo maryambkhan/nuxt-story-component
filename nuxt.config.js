@@ -30,8 +30,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/tailwindcss',
-    '@nuxt/image',
-    'nuxt-webpack-optimisations',
+     'nuxt-webpack-optimisations',
     '@nuxtjs/composition-api/module', ['@storyblok/nuxt/module',
     {
     accessToken:process.env.STORYBLOK_API_KEY,
@@ -44,7 +43,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxt/image'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

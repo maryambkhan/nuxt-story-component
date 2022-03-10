@@ -16,6 +16,7 @@
     "@nuxtjs/composition-api": "^0.32.0",
     "@storyblok/nuxt": "^3.0.2",
     "core-js": "^3.19.3",
+    "generate": "^0.14.0",
     "nuxt": "^2.15.8",
     "nuxt-webpack-optimisations": "^2.2.0",
     "vue": "^2.6.14",

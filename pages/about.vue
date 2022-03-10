@@ -1,6 +1,6 @@
 <template>
   <main class="flex flex-col">
-   <h2 class="text-lg font-bold text-center my-8 font-serif">About</h2>
+   <h2 class="text-lg font-bold text-center my-8 font-serif">About Animations</h2>
     <section class="mb-8">
       <p class="text-xl mx-auto md:max-w-2xl selection:text-red-900 selection:bg-red-300">
         Animation is a method in which figures are manipulated to appear as
@@ -13,5 +13,8 @@
         renderings.
       </p>
     </section>
+     <div  class="mx-auto flex justify-center  h-60">
+      <img src="/images/anime.png" alt="image" />
+      </div>
   </main>
 </template>
